@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Guess The Number"
+        android:textColor="#ffffff"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/res"
+        android:layout_width="match_parent"
+        android:layout_height="141dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Guess the number(0-100)"
+        android:inputType="number"
+        android:minHeight="70dp"
+        android:textColorHint="#ffffff" />
+
+    <EditText
+        android:id="@+id/num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:layout_marginTop="30dp"
+        android:hint="Enter The Number"
+        android:textColorHint="@color/white"
+        />
+
+    <Button
+        android:id="@+id/guess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guess"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="20dp"
+        />
+
+
+</LinearLayout>
